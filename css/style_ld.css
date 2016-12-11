@@ -1,0 +1,121 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+ul, ol {
+	list-style: none;
+}
+
+body {
+	position: relative;
+}
+
+.clearfix:before,
+.clearfix:after {
+	content: " ";
+    display: table;
+    clear: both;
+}
+
+header {
+	background: blue;
+}
+
+.container {
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.contact_wrapper, .logo_wrapper {
+	width: 35%;
+	float: left;
+	position: relative;
+	padding: 50px 0;
+	line-height: 60px;
+}
+
+.contact_wrapper {
+	background: blue;
+	width: 65%;
+	/*padding: 0;*/
+}
+
+.logo_wrapper:before {
+	content: '';
+    background: rgb(255, 255, 255);
+    /*background: red;*/
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0.9375rem;
+    width: 200%;
+    transform: skew(20deg);
+    z-index: 1;
+}
+
+.logo {
+	z-index: 10;
+	position: relative;
+}
+
+.contact_list {
+	text-align: right;
+}
+
+.contact_list .contact_item {
+	display: inline-block;
+	padding: 0px 20px;
+	color: #FFF;
+}
+
+.contact_item a {
+	color: #FFF;
+	padding: 0px 5px;
+	text-decoration: none;
+	transition: all .5s;
+}
+
+.contact_item a:hover {
+	color: #ccc;
+}
+
+
+
+.jumbotron {
+	background: url('../img/main_intro.jpeg');
+	min-height: 650px;
+	background-size: cover;
+	background-position: center center;
+}
+
+.main_nav {
+	width: 100%;
+	position: relative;
+	background: blue;
+	text-align: center;
+}
+
+.links_list .link_item {
+	/*float: left;*/
+	display: inline-block;
+	padding: 15px 40px;
+	cursor: pointer;
+	transition: all .5s;
+}
+
+.link_item:hover {
+	background: lightblue;
+}
+
+.link_item a {
+	color: #FFF;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+
+
+
