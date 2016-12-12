@@ -19,8 +19,35 @@ body {
     clear: both;
 }
 
+[class*='col-'].no_padding {
+	padding: 0px;
+}
+
+[class*='col-'] {
+	float: left;
+	width: 100%;
+	min-height: 1px;
+	padding: 12px;
+	position: relative;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+.col-20 {width: 20%;}
+.col-40 {width: 40%;}
+
 header {
-	background: blue;
+	background: rgb(1, 70, 173);
 }
 
 .container {
@@ -38,7 +65,7 @@ header {
 }
 
 .contact_wrapper {
-	background: blue;
+	background: rgb(1, 70, 173);
 	width: 65%;
 	/*padding: 0;*/
 }
@@ -82,8 +109,6 @@ header {
 	color: #ccc;
 }
 
-
-
 .jumbotron {
 	background: url('../img/main_intro.jpeg');
 	min-height: 650px;
@@ -94,7 +119,7 @@ header {
 .main_nav {
 	width: 100%;
 	position: relative;
-	background: blue;
+	background: rgb(1, 70, 173);
 	text-align: center;
 }
 
@@ -107,7 +132,7 @@ header {
 }
 
 .link_item:hover {
-	background: lightblue;
+	background: blue;
 }
 
 .link_item a {
@@ -116,6 +141,32 @@ header {
 	text-decoration: none;
 }
 
+.two_section {
+	background: url('../img/road1.jpeg') 100% 50% no-repeat fixed;
+	background-size: cover;
+}
 
+.two_section-wrapper {
+	padding: 200px 0;
+  	background: rgba(0,0,0,0.35);
+}
+
+.main_footer {
+	background: rgb(1, 70, 173);
+}
+
+.footer_contact-list {
+	text-align: left;
+}
+
+.footer_menu-list {
+	text-align: right;
+}
+
+.contact_footer-item, .menu_footer-item {
+	display: inline-block;
+	padding: 15px 15px;
+	color: #FFF;
+}
 
 
