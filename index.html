@@ -7,7 +7,7 @@
 		<link rel="stylesheet" type="text/css" href="css/style_ag.css">
 	</head>
 	<body>
-		<header class="clearfix">
+		<header class="clearfix" class="main_site-header">
 			<div class="container clearfix">
 				<div class="logo_wrapper">
 					<h1 class="logo">Logo</h1>
@@ -20,30 +20,39 @@
 							<li class="contact_item"><a href="#">PL</a>| <a href="#">EN</a>|<a href="#">DE</a></li>
 						</ul>
 					</div>
+					<button class="toggle_menu">Menus</button>
 				</div>
+
 			</div>
+			<!-- <button class="toggle_menu">Menu</button> -->
 		</header>
 		<section class="jumbotron">
 			<div class="jumbotron_content">
 				<h4>Content || no content</h4>
 			</div>
 		</section>
-		<nav id="main_navigation" class="main_nav navigation">
+		<nav id="main_navigation" class="main_nav navigation ">
 			<div class="container">
 				<ul class="links_list clearfix">
 					<li class="link_item"><a href="#firma">Firma</a></li>
 					<li class="link_item"><a href="#oferta">Oferta</a></li>
 					<li class="link_item"><a href="#sprzet">Sprzęt</a></li>
 					<li class="link_item"><a href="#kontact">Kontakt</a></li>
+					<ul class="contact_list">
+						<li class="contact_item">Pn - Pt 8:00 - 16:00</li>
+						<li class="contact_item">602-222-222</li>
+						<li class="contact_item"><a href="#">PL</a>| <a href="#">EN</a>|<a href="#">DE</a></li>
+					</ul>
 				</ul>
 			</div>
+			<button class="close_menu">Close</button>
 		</nav>
 
 		<section id="one_section" class="one_section">
 			<div class="container">
-				<div class="col-4"></div>
-				<div class="col-4"></div>
-				<div class="col-4"></div>
+				<div class="col-4 col-m-4 col-s-4 col-xs-4"></div>
+				<div class="col-4 col-m-4 col-s-4 col-xs-4"></div>
+				<div class="col-4 col-m-4 col-s-4 col-xs-4"></div>
 			</div>
 		</section>
 
@@ -61,23 +70,23 @@
 		<section id="three_section" class="three_section">
 			<div class="three_section-wrapper">
 				<div class="container">
-					<div class="col-4"></div>
-					<div class="col-4"></div>
-					<div class="col-4"></div>
+					<div class="col-4 col-m-4 col-s-4 col-xs-4"></div>
+					<div class="col-4 col-m-4 col-s-4 col-xs-4"></div>
+					<div class="col-4 col-m-4 col-s-4 col-xs-4"></div>
 				</div>
 			</div>
 		</section>
 
 		<footer id="main_footer" class="main_footer">
 			<div class="container clearfix">
-				<div class="col-7 no_padding">
+				<div class="col-7 col-m-7 col-s-12 no_padding">
 					<ul class="footer_contact-list">
 						<li class="contact_footer-item">Logo</li>
 						<li class="contact_footer-item">Pn - Pt 8:00 - 16:00</li>
 						<li class="contact_footer-item">602-222-222</li>
 					</ul>
 				</div>
-				<div class="col-5 no_padding">
+				<div class="col-5 col-m-5 col-s-12 no_padding">
 					<ul class="footer_menu-list">
 						<li class="menu_footer-item">O nas</li>
 						<li class="menu_footer-item">Usługi</li>
@@ -88,6 +97,7 @@
 			</div>
 		</footer>
 
+	<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
 	<script type="text/javascript" src="js/scripts.js"></script>
 	</body>
 </html>
