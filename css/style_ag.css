@@ -17,30 +17,35 @@ body {
   font-weight: 300;
 }
 
-
-
 #whywe {
-  padding: 200px 0px;
   background-image: url(../img/map_lightblue_1200.png);
   min-height: 1300px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
+
+}
+
+
+
+.text_section {
+  padding: 200px 0px;
+  overflow: hidden;
   /*background-size:cover;*/
 
 }
 
-#whywe p {
+.text_section p {
   padding: 10px 35px 10px 0px;
 }
 
-#whywe h2 {
+.text_section h2 {
   text-align: center;
   font-size: 40px;
   margin-bottom: 150px;
 }
 
-#whywe h2::after {
+.text_section h2::after {
     content: "";
     display: block;
     position: absolute;
@@ -53,4 +58,31 @@ body {
     opacity: 0.3;
     margin: auto;
 
+}
+
+
+#whatwedo p {
+  /*padding: 20px 60px;*/
+}
+
+.tilestrip_r {
+  padding: 0px 0px;
+}
+.tilestrip_r img {
+  max-width: 100%;
+}
+.tilestrip_r .texttile {
+  padding-right: 60px;
+  padding-left: 60px;
+}
+
+.tilestrip_l {
+  padding: 0px 0px;
+}
+.tilestrip_l img {
+  max-width: 100%;
+}
+.tilestrip_l .texttile {
+  padding-right: 60px;
+  padding-left: 60px;
 }
