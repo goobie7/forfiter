@@ -1,8 +1,28 @@
 
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: #0146ad;
+}
+
+h3 {
+  font-size: 23px;
+  margin: 50px 0px 10px 0;
+}
+
+body {
+  background-color: #f2f1f6;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+}
+
+
+
 #whywe {
   padding: 200px 0px;
   background-image: url(../img/map_lightblue_1200.png);
-  min-height: 1000px;
+  min-height: 1300px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -10,7 +30,27 @@
 
 }
 
+#whywe p {
+  padding: 10px 35px 10px 0px;
+}
+
 #whywe h2 {
   text-align: center;
   font-size: 40px;
+  margin-bottom: 150px;
+}
+
+#whywe h2::after {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    width: 110px;
+    height: 3px;
+    background-color: #0146ad;
+    opacity: 0.3;
+    margin: auto;
+
 }

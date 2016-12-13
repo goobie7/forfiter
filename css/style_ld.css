@@ -143,6 +143,8 @@ header {
 	position: relative;
 	background: rgb(1, 70, 173);
 	text-align: center;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 300;
 }
 
 .main_nav .contact_list {
