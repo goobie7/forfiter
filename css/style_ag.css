@@ -1,0 +1,16 @@
+
+#whywe {
+  padding: 200px 0px;
+  background-image: url(../img/map_lightblue_1200.png);
+  min-height: 1000px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  /*background-size:cover;*/
+
+}
+
+#whywe h2 {
+  text-align: center;
+  font-size: 40px;
+}
