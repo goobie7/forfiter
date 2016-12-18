@@ -18,7 +18,7 @@
     }
 
     .contact_wrapper, .logo_wrapper {
-        padding: 25px 0;
+        /*padding: 25px 0;*/
         /*line-height: 80px;*/
     }
 }
@@ -98,9 +98,33 @@
         padding: 0;
     }
 
+    .contact_wrapper {
+        width: 50%;
+    }
+
+    .logo_wrapper {
+        width: 49%;
+    }
+
+    .toggle_menu {
+        right: 0;
+    }
 
     .footer_contact-list, .footer_menu-list {
         text-align: center;
+    }
+
+    .main_footer > .container > div, .main_footer .footer_contact-wrapper {
+        text-align: center;
+    }
+
+    .footer_contact-list {
+        width: initial;
+    }
+
+    .footer_contact-wrapper,
+    .footer_menu-wrapper {
+        width: 100%;
     }
 
 
