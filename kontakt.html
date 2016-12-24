@@ -13,7 +13,7 @@
 		<header class="main_site-header">
 			<div class="container">
 				<div class="logo_wrapper">
-					<a href="#"><img src="img/fortrans_logo_blue_200.png"></a>
+					<a href="index.html"><img src="img/fortrans_logo_blue_200.png"></a>
 				</div>
 				<div class="contact_wrapper">
 					<div class="contact">
@@ -23,7 +23,7 @@
 							<li class="contact_item"><a href="#">PL</a>| <a href="#">EN</a>|<a href="#">DE</a></li>
 						</ul>
 					</div>
-					<button class="toggle_menu">Menus</button>
+					<button class="toggle_menu">Menu</button>
 				</div>
 
 			</div>
@@ -31,7 +31,7 @@
 		</header>
 		<section class="jumbotron_map">
 			<div class="jumbotron_content-map">
-				<h4>Content || no content</h4>
+				<div id="map"></div>
 			</div>
 		</section>
 		<nav id="main_navigation" class="main_nav navigation ">
@@ -48,20 +48,54 @@
 					</ul>
 				</ul>
 			</div>
-			<button class="close_menu">Close</button>
+			<button class="close_menu">
+				<svg viewBox="0 0 24 24">
+					<path fill="#FFF" d="M19,6.41L17.59,5L12,10.59L6.41,5L5,6.41L10.59,12L5,17.59L6.41,19L12,13.41L17.59,19L19,17.59L13.41,12L19,6.41Z" />
+				</svg>
+			</button>
 		</nav>
 		<section id="contact_details" class="contact_details">
-			<div class="container">
-				<div class="col-3">
+			<div class="container clearfix">
+				<div class="col-3 col-s-12">
 					<div class="contact_details-wrapper">
+						<div class="contact_detail">
+							<p>Forttrans S.C</p>
+							<p>M.J Trzeszczyńscy</p>
+						</div>
+						<div class="contact_detail">
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+						</div>
+						<div class="contact_detail">
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+						</div>
+						<div class="contact_detail">
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-3 col-s-12">
+					<div class="contact_details-wrapper">
+						<div class="contact_detail">
+							<p>Forttrans S.C</p>
+							<p>M.J Trzeszczyńscy</p>
+						</div>
 						<div class="contact_detail">
 							<p>Forttrans S.C</p>
 							<p>M.J Trzeszczyńscy</p>
 						</div>
 					</div>
 				</div>
-				<div class="col-3"></div>
-				<div class="col-8"></div>	
+				<div class="col-6 col-s-12">
+					<div class="contact_details-wrapper border_trans">
+						<div class="contact_detail">
+							<h2>Zadzwoń</h2>
+							<span>tel.(+48) 602 606 611</span>
+						</div>
+					</div>
+				</div>	
 			</div>
 		</section>
 		<section id="contact_form" class="contact_form">
@@ -109,5 +143,35 @@
 				</div>
 			</div>
 		</section>
+		<footer id="main_footer" class="main_footer">
+			<div class="container">
+				<div class="no_padding footer_contact-wrapper">
+					<div class="footer_logo-wrapper">
+						<img src="img/fortrans_logo_white_100.png">
+					</div>
+					<ul class="footer_contact-list">
+						<!-- li class="contact_footer-item"><img src="img/fortrans_logo_white_100.png"></li> -->
+						<li class="contact_footer-item">Pn - Pt 8:00 - 16:00</li>
+						<li class="contact_footer-item">602-222-222</li>
+					</ul>
+				</div>
+				<div class="no_padding footer_menu-wrapper">
+					<ul class="footer_menu-list">
+						<li class="menu_footer-item">O nas</li>
+						<li class="menu_footer-item">Usługi</li>
+						<li class="menu_footer-item">Sprzęt</li>
+						<li class="menu_footer-item">Kontakt</li>
+					</ul>
+				</div>
+			</div>
+		</footer>
+
+		<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+		<script async defer
+      		src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCBC_f30oaJull6ImkZ8qXY40uSEZAMrWc&callback=initMap">
+    	</script>
+    	<script type="text/javascript" src="js/map.js"></script>
+		<script type="text/javascript" src="js/scripts.js"></script>
+
 	</body>
 </html>

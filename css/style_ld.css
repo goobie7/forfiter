@@ -135,8 +135,34 @@ header::after {
 	font-size: 25px;
 	position: relative;
 	right: 25px;
+	text-transform: uppercase;
+	letter-spacing: 1.5px;
 	/*display: inline-block;*/
 }
+
+.close_menu {
+    display: block;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 40px;
+    right: 40px;
+    cursor: pointer;
+}
+
+/*.toggle_menu span {
+    display: block;
+    background-color: #000;
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    opacity: 1;
+    left: 0;
+    transition: opacity 0.4s , transform 0.4s;
+}*/
+
+
+/*----------------Header-contact and work times----------------*/
 
 .container {
 	width: 100%;
@@ -214,6 +240,8 @@ header::after {
 	background-position: center center;
 }
 
+/*----------------Main navigation------------*/
+
 .main_nav {
 	width: 100%;
 	position: relative;
@@ -235,11 +263,18 @@ header::after {
 	margin-top: 15px;
 }
 
+.links_list {
+	width: 50%;
+	margin: auto;
+}
+
 
 .links_list .link_item {
-	/*float: left;*/
-	display: inline-block;
-	padding: 15px 40px;
+	float: left;
+	/*display: inline-block;*/
+	/*padding: 15px 40px;*/
+	/*padding: 15px 0;*/
+	width: 25%;
 	cursor: pointer;
 	transition: all .5s;
 }
@@ -252,6 +287,8 @@ header::after {
 	color: #FFF;
 	text-transform: uppercase;
 	text-decoration: none;
+	padding: 15px 0;
+	display: block;
 }
 
 .close_menu {
@@ -264,6 +301,8 @@ header::after {
 	font-size: 30px;
 }
 
+/*------------------two_section-----------------*/
+
 .two_section {
 	background: url('../img/road1.jpeg') 100% 50% no-repeat fixed;
 	background-size: cover;
@@ -272,6 +311,21 @@ header::after {
 .two_section-wrapper {
 	padding: 200px 0;
   	background: rgba(0,0,0,0.35);
+}
+
+/*----------------footer------------------------*/
+
+footer {
+    text-align: justify;
+    padding: 2em 5%;
+    background: #2c3e50;
+    color: #fff;
+}
+
+footer::after {
+    content: '';
+    display: inline-block;
+    width: 100%;
 }
 
 .main_footer {
@@ -326,19 +380,6 @@ header::after {
 	height: 100%;
 }
 
-footer {
-    text-align: justify;
-    padding: 2em 5%;
-    background: #2c3e50;
-    color: #fff;
-}
-
-footer::after {
-    content: '';
-    display: inline-block;
-    width: 100%;
-}
-
 .main_footer > .container > div,
 .main_footer .footer_contact-wrapper,
 .main_footer .footer_contact-wrapper ul {
@@ -359,11 +400,40 @@ footer::after {
 
 /*----------------Contact form styles-----------------------*/
 
-#contact_form {
-	background: #FFF;
-	padding: 40px 0;
+#map {
+	width: 100%;
+	height: 600px;
 }
 
+.jumbotron_map {
+	position: relative;
+}
+
+/*.jumbotron_map:before {
+	content: '';
+	width: 100%;
+	height: 100%;
+	background: #0146ad;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	opacity: 0.3;
+	z-index: 1000;
+}*/
+
+
+
+.contact_details {
+	background: #f2f1f6;
+	padding: 70px 0;
+}
+
+#contact_form {
+	background: #FFF;
+	padding: 20px;
+}
 
 input[name=name], 
 input[name="surname"], 
@@ -405,6 +475,44 @@ textarea[name=contact-message] {
 	color: rgb(1, 70, 173);
 }
 
+.border_trans {
+	border: solid rgb(1, 70, 173);
+	border-width: 0 2px 2px 2px;
+	position: relative;
+	overflow: hidden;
+	padding: 30px;
+	text-align: center;
+}
+
+.border_trans .contact_detail h2 {
+	font-size: 40px;
+	margin-bottom: 20px;
+}
+
+.border_trans .contact_detail span {
+	font-size: 20px;
+}
+
+.border_trans:before,
+.border_trans:after {
+	position: absolute;
+	content: "";
+	height: 2px;
+	background: rgb(1, 70, 173);
+	width: 35%;
+	top: 0;
+	left: 0;
+}
+
+.border_trans:after {
+	left: auto;
+	right: 0;
+}
+
+.tilestrip_r, .tilestrip_l {
+	display: flex;
+	flex-direction: row;
+}
 
 
 
