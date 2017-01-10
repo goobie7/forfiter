@@ -61,6 +61,34 @@ body {
 }
 
 
+
+#two_section {
+  color: white;
+}
+
+#two_section h2 {
+  color: white;
+  font-size: 36pt;
+  margin-bottom: 20px;
+}
+
+#two_section p {
+  color: white;
+  font-size: 16pt;
+  margin-bottom: 20px;
+}
+
+
+#two_section a {
+  color: white;
+}
+
+#two_section .container {
+  max-width: 600px;
+
+}
+
+
 #whatwedo p {
   /*padding: 20px 60px;*/
 }
