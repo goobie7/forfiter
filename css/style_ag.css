@@ -36,7 +36,7 @@ body {
 }
 
 .text_section p {
-  padding: 10px 35px 10px 0px;
+  /*padding: 10px 35px 10px 0px;*/
   line-height: 1.5;
   font-weight: 400;
 }

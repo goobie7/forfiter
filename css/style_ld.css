@@ -514,6 +514,46 @@ textarea[name=contact-message] {
 	flex-direction: row;
 }
 
+/*----------------Sprzęt section styles--------------*/
+
+.tool_description {
+	padding: 80px 100px;
+	text-align: center;
+	transition: all 0.5s;
+}
+
+.tool_description::after {
+	content: "";
+    display: block;
+    position: absolute;
+    bottom: 0px;
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 20px solid transparent;
+    right: -40px;
+    top: 50%;
+    z-index: 1000;
+    transform: rotate(-90deg) translateY(-50%);
+    transition: all 0.5s;
+}
+
+.tilestrip_l .tool_description::after {
+	left: -30px;
+	transform: rotate(90deg);
+}
+
+.tilestrip_l:hover .tool_description::after,
+.tilestrip_r:hover .tool_description::after{
+	border-top-color: lightblue;
+}
+
+.tilestrip_l:hover .tool_description,
+.tilestrip_r:hover .tool_description {
+	background: lightblue;
+}
+
 
 
 
