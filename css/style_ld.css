@@ -274,7 +274,7 @@ header::after {
 	/*display: inline-block;*/
 	/*padding: 15px 40px;*/
 	/*padding: 15px 0;*/
-	width: 25%;
+	width: 20%;
 	cursor: pointer;
 	transition: all .5s;
 }
@@ -482,6 +482,7 @@ textarea[name=contact-message] {
 	overflow: hidden;
 	padding: 30px;
 	text-align: center;
+	overflow: visible;
 }
 
 .border_trans .contact_detail h2 {
@@ -555,8 +556,104 @@ textarea[name=contact-message] {
 }
 
 
+/*-------------sprzęt section on home_page------------------*/
+
+.ours_tools {
+	background-color: #FFFFFF;
+}
+
+.ours_tools-wrapper {
+	padding: 150px 0;
+}
+
+.ours_tools .text_wrapper {
+	font-weight: 500;
+	padding-left: 30px;
+}
+
+.ours_tools .text_wrapper h2 {
+	margin-bottom: 90px;
+	font-size: 40px;
+}
+
+.ours_tools .text_wrapper .get_tools {
+	display: inline;
+	cursor: pointer;
+	/*width: 70px;*/
+	background: transparent;
+	padding: 10px 30px;
+	border: 2px solid rgb(1, 70, 173);
+	letter-spacing: 1.5px;
+	transition: all .5s;
+	color: rgb(1, 70, 173);
+}
+
+.ours_tools .text_wrapper .get_tools:hover {
+	background-color: rgb(1, 70, 173);
+	color: #FFF;
+}
 
 
+/*-----------short contact section styles---------------*/
+
+.short_contact {
+	background-color: rgb(1, 70, 173);
+	font-family: 'Oswald', sans-serif;
+}
+
+.short_contact-wrapper .text_wrapper {
+	padding: 150px 0;
+}
+
+.skewbcg p {
+	position: relative;
+	padding: 10px;
+	z-index: 10;
+	color: #0146ad;
+	font-size: 40px;
+}
+
+.short_contact-wrapper .skewbcg::before {
+	content: '';
+    background: #f2f1f6;
+    /* background: red; */
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0.9375rem;
+    width: 300%;
+    transform: skew(20deg);
+    z-index: 1;
+}
+
+.short_contact .short_contact-wrapper .border_trans {
+	border-color: #fFF;
+	margin-top: 135px;
+	padding: 70px;
+	float: right;
+	width: 70%;
+	position: relative;
+	overflow: visible;
+}
+
+.short_contact .short_contact-wrapper .border_trans p, 
+.short_contact .short_contact-wrapper .border_trans h2, 
+.short_contact .short_contact-wrapper .border_trans span {
+	color: #FFF;
+} 
+
+.short_contact-wrapper .border_trans:before,
+.short_contact-wrapper .border_trans:after {
+	background-color: #FFF;
+}
+
+.text_wrapper .contact_detail svg {
+	position: absolute;
+	z-index: 10;
+	top: -35px;
+	left: 50%;
+	transform: translateX(-50%);
+}
 
 /*.main_site-header > .container > div,
 .main_site-header .footer_contact-wrapper,
