@@ -52,6 +52,10 @@
     .col-s-11 {width: 91.66%;}
     .col-s-12 {width: 100%;}
 
+    img.no_margin {
+        margin: auto;
+    }
+
     .short_contact-wrapper .skewbcg::before {
         display: none;
     }
@@ -66,6 +70,36 @@
 
     .texttile, .tool_description {
         order: 2;
+    }
+
+    .tool_description::after {
+        right: 50%;
+        transform: rotate(180deg) translateX(-50%);
+        top: -20px;
+    }
+
+    .tilestrip_l .tool_description::after {
+        left: 50%;
+        transform: rotate(180deg) translateX(50%);
+        top: -20px;
+    }
+
+    .short_contact {
+        background-color: #f2f1f6;
+    }
+
+    .short_contact-wrapper .text_wrapper {
+        width: 70%;
+        margin: auto;
+    }
+
+    .short_contact-wrapper .container div:nth-child(2) {
+        background-color: #0146ad;
+    }
+
+    .short_contact .short_contact-wrapper .border_trans {
+        float: none;
+        margin: 135px auto 0 auto;
     }
 
      .main_nav .contact_list {

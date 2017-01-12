@@ -91,6 +91,10 @@ img {
 	padding: 0px;
 }
 
+.no_margin {
+	margin: 0;
+}
+
 [class*='col-'] {
 	float: left;
 	width: 100%;
@@ -654,6 +658,40 @@ textarea[name=contact-message] {
 	left: 50%;
 	transform: translateX(-50%);
 }
+
+/*------------------o nas section styles-------------*/
+
+.features_list .feature:nth-child(odd){
+	background-color: #0065fa;
+}
+
+.features_list .feature:nth-child(even) {
+	background-color: rgb(1, 70, 173);
+}
+
+.feature {
+	width: 20%;
+	float: left;
+	/*padding: 40px 0;*/
+	height: 120px;
+	vertical-align: middle;
+	text-align: center;
+	background-color: red;
+	line-height: 120px;
+	transition: all .5s;
+}
+
+.feature span {
+	display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+    color: #FFF;
+}
+
+.feature:hover {
+	opacity: 0.8;
+}
+
 
 /*.main_site-header > .container > div,
 .main_site-header .footer_contact-wrapper,
