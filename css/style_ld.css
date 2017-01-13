@@ -708,6 +708,45 @@ textarea[name=contact-message] {
 	opacity: 0.8;
 }
 
+.certificate_list {
+	counter-reset: li;
+}
+
+.certificate_list .certificate_item {
+	position: relative;
+	z-index: 100;
+	font-weight: 500;
+	/*margin: 0px 100px;*/
+	margin-top: 100px;
+	margin-bottom: 100px;
+	text-align: left;
+	/*display: inline-block;*/
+	min-height: 80px;
+}
+
+.certificate_item p {
+	padding: 0px 15px;
+	display: inline-block;
+}
+
+.certificate_list .certificate_item:before {
+	content: counter(li); 
+	counter-increment: li;
+	z-index: 10; 
+	/*background: #0065fa; */
+	color: #0065fa;
+	font: bold 100px/20px sans-serif;
+	opacity: 0.6;
+	/*font-weight: 300;*/
+	/*height: 20px; */
+	text-align: center; 
+	/*width: 20px; */
+	position: absolute; 
+	/*left: 0; */
+	top: -45px;
+	left: -25px;
+}
+
 
 /*.main_site-header > .container > div,
 .main_site-header .footer_contact-wrapper,
