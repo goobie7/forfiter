@@ -695,6 +695,7 @@ textarea[name=contact-message] {
 	background-color: red;
 	line-height: 120px;
 	transition: all .5s;
+	font-size: 15px;
 }
 
 .feature span {
@@ -730,18 +731,18 @@ textarea[name=contact-message] {
 }
 
 .certificate_list .certificate_item:before {
-	content: counter(li); 
+	content: counter(li);
 	counter-increment: li;
-	z-index: 10; 
+	z-index: 10;
 	/*background: #0065fa; */
 	color: #0065fa;
 	font: bold 100px/20px sans-serif;
 	opacity: 0.6;
 	/*font-weight: 300;*/
 	/*height: 20px; */
-	text-align: center; 
+	text-align: center;
 	/*width: 20px; */
-	position: absolute; 
+	position: absolute;
 	/*left: 0; */
 	top: -45px;
 	left: -25px;

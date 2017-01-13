@@ -32,24 +32,39 @@ body {
 
 
 .text_section {
-  padding: 110px 0px;
+  padding: 50px 0px 150px 0px;
   overflow: hidden;
   /*background-size:cover;*/
 
 }
 
+.mainpage_text_section {
+  padding: 150px 0px;
+  overflow: hidden;
+  /*background-size:cover;*/
+
+}
+
+.mainpage_text_section p,
 .text_section p {
-  /*padding: 10px 35px 10px 0px;*/
+  padding: 10px 35px 10px 0px;
   line-height: 1.5;
   font-weight: 400;
 }
 
-.text_section h2 {
+.mainpage_text_section h2 {
   text-align: center;
   font-size: 40px;
   margin-bottom: 150px;
 }
 
+.text_section h2 {
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 60px;
+}
+
+.mainpage_text_section h2::after,
 .text_section h2::after {
     content: "";
     display: block;
