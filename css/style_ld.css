@@ -245,14 +245,14 @@ header::after {
 }
 
 .jumbo_about_us {
-	background: url('../img/main_intro.jpeg');
+	background: url('../img/nanpu_1600x250_2.jpg');
 	min-height: 250px;
 	background-size: cover;
 	background-position: center center;
 }
 
 .jumbo_machinery {
-	background: url('../img/main_intro.jpeg');
+	background: url('../img/volvo_1920x250_blue.jpg');
 	min-height: 250px;
 	background-size: cover;
 	background-position: center center;
