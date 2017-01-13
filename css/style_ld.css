@@ -61,7 +61,7 @@ img {
 .logo:after {
 	content: '';
     display: inline-block;
-    vertical-align: middle;  
+    vertical-align: middle;
     height: 100%;
 }
 
@@ -185,7 +185,7 @@ header::after {
 .contact_wrapper {
 	background: rgb(1, 70, 173);
 	width: 70%;
-	text-align: right;	
+	text-align: right;
 	/*padding: 0;*/
 }
 
@@ -243,6 +243,22 @@ header::after {
 	background-size: cover;
 	background-position: center center;
 }
+
+.jumbo_about_us {
+	background: url('../img/main_intro.jpeg');
+	min-height: 250px;
+	background-size: cover;
+	background-position: center center;
+}
+
+.jumbo_machinery {
+	background: url('../img/main_intro.jpeg');
+	min-height: 250px;
+	background-size: cover;
+	background-position: center center;
+}
+
+
 
 /*----------------Main navigation------------*/
 
@@ -439,8 +455,8 @@ footer::after {
 	padding: 20px;
 }
 
-input[name=name], 
-input[name="surname"], 
+input[name=name],
+input[name="surname"],
 input[name="phone"],
 input[name="company"],
 input[name="email"] {
@@ -640,11 +656,11 @@ textarea[name=contact-message] {
 	overflow: visible;
 }
 
-.short_contact .short_contact-wrapper .border_trans p, 
-.short_contact .short_contact-wrapper .border_trans h2, 
+.short_contact .short_contact-wrapper .border_trans p,
+.short_contact .short_contact-wrapper .border_trans h2,
 .short_contact .short_contact-wrapper .border_trans span {
 	color: #FFF;
-} 
+}
 
 .short_contact-wrapper .border_trans:before,
 .short_contact-wrapper .border_trans:after {
