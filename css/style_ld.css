@@ -95,6 +95,10 @@ img {
 	margin: 0;
 }
 
+img.no_margin {
+	margin: 0;
+}
+
 [class*='col-'] {
 	float: left;
 	width: 100%;
