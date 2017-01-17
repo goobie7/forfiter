@@ -118,7 +118,8 @@
 
     .toggle_menu {
         color: rgb(1, 70, 173);
-        right: 30px;
+        right: 20px;
+        top: 45px;
     }
 
     .contact_wrapper, header {
@@ -171,7 +172,8 @@
     }
 
     .contact_wrapper {
-        width: 50%;
+        width: 0;
+        position: initial;
     }
 
     .logo_wrapper {
