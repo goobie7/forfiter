@@ -827,15 +827,7 @@ textarea[name=contact-message] {
 }
 
 .ours_tools h2 { text-align: center;}
-.ours_tools a {
-	margin: auto;
-	text-align: center;
-	position: relative;
-	left: 50%;
-	transform: translateX(-50%);
-	aa display: inline-block
 
-}
 
 
 /*-----------short contact section styles---------------*/
