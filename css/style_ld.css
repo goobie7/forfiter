@@ -792,9 +792,7 @@ textarea[name=contact-message] {
 /*-------------sprzęt section on home_page------------------*/
 
 .ours_tools {
-	background-color: #FFFFFF;
-	background-color: whitesmoke;
-	background-color: #f1f1f5;
+	background-color: #e8e8e8;
 }
 
 .ours_tools-wrapper {
@@ -826,6 +824,17 @@ textarea[name=contact-message] {
 .ours_tools .text_wrapper .get_tools:hover {
 	background-color: rgb(1, 70, 173);
 	color: #FFF;
+}
+
+.ours_tools h2 { text-align: center;}
+.ours_tools a {
+	margin: auto;
+	text-align: center;
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
+	aa display: inline-block
+
 }
 
 
