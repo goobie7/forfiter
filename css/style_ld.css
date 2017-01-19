@@ -776,9 +776,11 @@ textarea[name=contact-message] {
 }*/
 
 /*-------------sprzęt section on home_page------------------*/
-  
+
 .ours_tools {
 	background-color: #FFFFFF;
+	background-color: whitesmoke;
+	background-color: #f1f1f5;
 }
 
 .ours_tools-wrapper {
@@ -815,7 +817,10 @@ textarea[name=contact-message] {
 
 /*-----------short contact section styles---------------*/
 
+
+
 .short_contact {
+	background-color: #f1f1f5;
 	background-color: rgb(1, 70, 173);
 	font-family: 'Oswald', sans-serif;
 }
@@ -844,7 +849,7 @@ textarea[name=contact-message] {
     transform: skew(20deg);
     z-index: 1;
 }
-  
+
 .short_contact .short_contact-wrapper .border_trans {
 	border-color: #fFF;
 	margin-top: 135px;
@@ -855,11 +860,11 @@ textarea[name=contact-message] {
 	overflow: visible;
 }
 
-.short_contact .short_contact-wrapper .border_trans p, 
-.short_contact .short_contact-wrapper .border_trans h2, 
+.short_contact .short_contact-wrapper .border_trans p,
+.short_contact .short_contact-wrapper .border_trans h2,
 .short_contact .short_contact-wrapper .border_trans span {
 	color: #FFF;
-} 
+}
 
 .short_contact-wrapper .border_trans:before,
 .short_contact-wrapper .border_trans:after {
