@@ -853,8 +853,7 @@ textarea[name=contact-message] {
 
 .short_contact-wrapper .skewbcg::before {
 	content: '';
-    background: #f2f1f6;
-    /* background: red; */
+    background: whitesmoke;
     position: absolute;
     top: 0;
     bottom: 0;
