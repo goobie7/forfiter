@@ -810,7 +810,7 @@ textarea[name=contact-message] {
 }
 
 .ours_tools .text_wrapper .get_tools {
-	display: inline;
+	display: inline-block;
 	cursor: pointer;
 	/*width: 70px;*/
 	background: transparent;
@@ -819,6 +819,11 @@ textarea[name=contact-message] {
 	letter-spacing: 1.5px;
 	transition: all .5s;
 	color: rgb(1, 70, 173);
+	margin: auto;
+	text-align: center;
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
 }
 
 .ours_tools .text_wrapper .get_tools:hover {
