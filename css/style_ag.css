@@ -8,7 +8,7 @@ h1, h2, h3, h4, h5, h6 {
 
 h3 {
   font-size: 23px;
-  margin: 20px 0px 10px 0;
+  /*margin: 20px 0px 10px 0;*/
 }
 
 body {
@@ -48,6 +48,7 @@ body {
 .mainpage_text_section p,
 .text_section p {
   padding: 10px 35px 10px 0px;
+  padding-top: 0;
   line-height: 1.5;
   font-weight: 400;
 }
@@ -69,7 +70,7 @@ body {
     content: "";
     display: block;
     position: absolute;
-    bottom: 0px;
+    /*bottom: 0px;*/
     left: 0px;
     right: 0px;
     width: 110px;
