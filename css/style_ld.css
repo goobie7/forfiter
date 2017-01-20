@@ -815,7 +815,7 @@ textarea[name=contact-message] {
 	/*width: 70px;*/
 	background: transparent;
 	padding: 10px 30px;
-	border: 2px solid rgb(1, 70, 173);
+	border: 1.5px solid rgb(1, 70, 173);
 	letter-spacing: 1.5px;
 	transition: all .5s;
 	color: rgb(1, 70, 173);

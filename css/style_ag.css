@@ -23,13 +23,17 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
-
 }
-
 
 .padding-bottom { padding-bottom: 100px; }
 
-.services h4 {
+.whywe h3 {
+  padding: 13px 0 15px 0;
+}
+
+.services h4,
+.atuty h4,
+.safe h4 {
   padding-bottom: 10px;
   font-size: 24px;
 }
@@ -39,7 +43,7 @@ body {
 }
 
 .text_section {
-  padding: 50px 0px 150px 0px;
+  /*padding: 50px 0px 150px 0px;*/
   overflow: hidden;
   /*background-size:cover;*/
 
@@ -48,14 +52,12 @@ body {
 .mainpage_text_section {
   padding: 150px 0px;
   overflow: hidden;
-  /*background-size:cover;*/
-
 }
 
 .mainpage_text_section p,
 .text_section p {
-  padding: 10px 35px 10px 0px;
-  padding-top: 0;
+  padding: 10px 25px 10px 0px;
+  padding-top: 10px;
   line-height: 1.5;
   font-weight: 400;
 }
@@ -80,15 +82,13 @@ body {
     /*bottom: 0px;*/
     left: 0px;
     right: 0px;
-    width: 110px;
+    width: 80px;
     height: 3px;
     background-color: #0146ad;
     opacity: 0.3;
     margin: auto;
-
+    margin-top: 15px;
 }
-
-
 
 #two_section {
   color: white;
@@ -103,23 +103,34 @@ body {
 #two_section p {
   color: white;
   font-size: 16pt;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
-
 
 #two_section a {
   color: white;
+  background: transparent;
+  border: 1.5px solid #FFF;
+  padding: 8px 20px;
+  text-decoration: none;
+  transition: all .5s;
+  font-size: 15px;
+  /*font-weight: 600;*/
+}
+
+#two_section a:hover {
+  background: #0146ad;
+  color: #FFF;
+  border-color: transparent;
 }
 
 #two_section .container {
   max-width: 600px;
-
 }
 
-#whatwedo { background-color: whitesmoke; }
+#whatwedo { background-color: whitesmoke; padding-top: 100px;}
 
 #whatwedo p {
-  /*padding: 20px 60px;*/
+  padding: 30px 0 0 0;
 }
 
 .tilestrip_r {
@@ -144,11 +155,11 @@ body {
   padding-left: 60px;
 }
 
-
-
-
 #phone > svg { margin-top: -70px;}
 
+#whatwedo .tilestrip_l .texttile  h3 {
+  padding-top: 10px;
+}
 
 #europe_map {
   background-color: whitesmoke;
@@ -160,5 +171,13 @@ body {
 #europe_map h3 { font-size: 26px;}
 
 .nav_buttons { margin: 15px 0;}
-.nav_buttons button { padding: 7px; border: 1px solid #0146ad;, color: #0146ad; }
+.nav_buttons button:first-child {margin-left: 0;}
+.nav_buttons button {transition: all .5s; margin: 0 10px; padding: 10px; border: 1.5px solid #0146ad;
+ color: #0146ad; cursor: pointer; font-family: inherit; font-size: 15px;}
+.nav_buttons button:hover {
+  background: #0146ad;
+  color: #FFF;
+}
 .nav_buttons button a { color: #0146ad;}
+.more_btns {padding: 30px 0; }
+.more_btns .nav_buttons {text-align: center;}

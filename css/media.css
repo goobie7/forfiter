@@ -169,6 +169,7 @@
 
     .text_section p {
         padding: 0;
+        width: initial;
     }
 
     .contact_wrapper {
@@ -178,6 +179,10 @@
 
     .logo_wrapper {
         width: 49%;
+    }
+
+    .atuty .texttile p {
+        padding: 0;
     }
 
     .main_site-header .container > div a {
@@ -203,6 +208,10 @@
 
     #contact_form {
         padding: 20px;
+    }
+
+    .services, .atuty {
+        padding: 50px 0;
     }
 } 
 
@@ -230,6 +239,14 @@
     .col-xs-10 {width: 83.33%;}
     .col-xs-11 {width: 91.66%;}
     .col-xs-12 {width: 100%;}
+
+    .feature {
+        width: 50%;
+    }
+
+    #two_section .two_section-wrapper {
+        padding-left: 12px;
+    }
 
     #contact_form {
         padding: 10px;
