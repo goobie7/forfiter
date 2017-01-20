@@ -157,3 +157,7 @@ body {
 }
 
 #europe_map h3 { font-size: 26px;}
+
+.nav_buttons { margin: 15px 0;}
+.nav_buttons button { padding: 7px; border: 1px solid #0146ad;, color: #0146ad; }
+.nav_buttons button a { color: #0146ad;}
