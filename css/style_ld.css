@@ -469,6 +469,10 @@ footer::after {
 	padding: 70px 0;
 }
 
+.contact_detail {
+	padding: 10px 0;
+}
+
 #contact_form {
 	background: #FFF;
 	padding: 20px;
@@ -630,6 +634,15 @@ textarea[name=contact-message] {
 .ours_tools .text_wrapper .get_tools:hover {
 	background-color: rgb(1, 70, 173);
 	color: #FFF;
+}
+
+.ours_tools a { text-decoration: none; }
+
+.ours_tools p {
+	width: 400px;
+	margin: -50px 0px 30px 70px;
+	font-weight: 300;
+	text-align: center;
 }
 
 
